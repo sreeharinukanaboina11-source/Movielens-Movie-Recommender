@@ -1,0 +1,1 @@
+Built an end-to-end movie recommender on MovieLens (100k ratings, 610 users) combining genre/tag TF-IDF content filtering with mean-centred collaborative filtering and TruncatedSVD; reduced RMSE by 10.6% (0.8420 vs 0.9416) over a user-mean baseline using a leakage-free rating split, and proved deliberate test-set leakage would have artificially inflated accuracy by 8.1%.
